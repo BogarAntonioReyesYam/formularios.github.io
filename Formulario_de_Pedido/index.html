@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <title>Formulario de cita medica</title>
+</head>
+<body>
+    
+<header class="text-center bg-body-secondary py-5 px-4">
+        <section>
+            <h1 class="display-9 fw-bold">Formulario de cita medica</h1>
+        </section>
+</header>
+<br>
+<form>
+    <main class="container">
+  <section class="py-5 px-5">
+ <div class="row g-2">
+  <div class="col-md">
+   <div class="form-floating">
+      <select class="form-select" id="floatingSelectGrid">
+        <option selected>Seleccionar</option>
+        <option value="1">Mochila</option>
+        <option value="2">Cajas</option>
+        <option value="3">Vasos</option>
+      </select>
+      <label for="floatingSelectGrid">Producto</label>
+    </div>
+  </div>
+  <div class="col-md">
+    <div class="form-floating">
+      <select class="form-select" id="floatingSelectGrid">
+        <option selected>Seleccionar</option>
+        <option value="1">1</option>
+        <option value="2">5</option>
+        <option value="3">10</option>
+      </select>
+      <label for="floatingSelectGrid">Cantidad</label>
+    </div>
+  </div>
+</div>
+<br>
+  <div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Direccion</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+<br>
+<label for="exampleFormControlTextarea1" class="form-label">Metodo de pago</label>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    Tarjeta de debito o credito
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    Efectivo
+  </label>
+</div>
+<br>
+<button type="submit" class="btn btn-primary">Confirmar pedido</button>
+</form>
+<body>
+</html>
